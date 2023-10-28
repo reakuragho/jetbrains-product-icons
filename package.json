@@ -1,9 +1,10 @@
 {
   "name": "jetbrains-product-icons",
-  "displayName": "Jetbrains Product Icons",
+  "displayName": "JetBrains Product Icons",
   "description": "",
   "publisher": "yatasun",
-  "version": "0.0.1",
+  "icon": "icon.png",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -14,7 +15,7 @@
     "productIconThemes": [
       {
         "id": "jetbrains-product-icons",
-        "label": "Jetbrains Product Icons",
+        "label": "JetBrains Product Icons",
         "path": "./productions/jetbrains-product-icon-theme.json"
       }
     ]
