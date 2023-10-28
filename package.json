@@ -2,6 +2,7 @@
   "name": "jetbrains-product-icons",
   "displayName": "Jetbrains Product Icons",
   "description": "",
+  "publisher": "yatasun",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
