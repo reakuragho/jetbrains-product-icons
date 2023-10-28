@@ -1,0 +1,21 @@
+{
+  "name": "jetbrains-product-icons",
+  "displayName": "Jetbrains Product Icons",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "jetbrains-product-icons",
+        "label": "Jetbrains Product Icons",
+        "path": "./productions/jetbrains-product-icon-theme.json"
+      }
+    ]
+  }
+}

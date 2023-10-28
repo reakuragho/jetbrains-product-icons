@@ -1,0 +1,72 @@
+{
+    "fonts": [
+        {
+            "id": "jetbrains-product-icons",
+            "src": [
+                {
+                    "path": "./jetbrains-icons.woff",
+                    "format": "woff"
+                }
+            ],
+        }
+    ],
+    "iconDefinitions": {
+        "symbol-class": {
+            "fontCharacter": "\\E900"
+        },
+        "symbol-namespace": {
+            "fontCharacter": "\\E901"
+        },
+        "symbol-module": {
+            "fontCharacter": "\\E901"
+        },
+        "symbol-struct": {
+            "fontCharacter": "\\E902"
+        },
+        "symbol-structure": {
+            "fontCharacter": "\\E902"
+        },
+        "symbol-constant": {
+            "fontCharacter": "\\E903"
+        },
+        "symbol-enum": {
+            "fontCharacter": "\\E904"
+        },
+        "symbol-enum-member": {
+            "fontCharacter": "\\E904"
+        },
+        "symbol-field": {
+            "fontCharacter": "\\E905"
+        },
+        "symbol-function": {
+            "fontCharacter": "\\E906"
+        },
+        "symbol-interface": {
+            "fontCharacter": "\\E907"
+        },
+        "symbol-method": {
+            "fontCharacter": "\\E908"
+        },
+        "symbol-constructor": {
+            "fontCharacter": "\\E908"
+        },
+        "symbol-operator": {
+            "fontCharacter": "\\E909"
+        },
+        "symbol-parameter": {
+            "fontCharacter": "\\E90A"
+        },
+        "symbol-property": {
+            "fontCharacter": "\\E90B"
+        },
+        "symbol-value": {
+            "fontCharacter": "\\E90C"
+        },
+        "symbol-variable": {
+            "fontCharacter": "\\E90D"
+        },
+        "symbol-type-parameter": {
+            "fontCharacter": "\\E90E"
+        }
+    }
+}

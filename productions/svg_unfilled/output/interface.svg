@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="interface.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     style="color:#000000;fill:#5fb865;-inkscape-stroke:none"
+     d="M 8,1 C 4.1399329,1 1,4.1399329 1,8 c 0,3.860067 3.1399329,7 7,7 3.860067,0 7,-3.139933 7,-7 C 15,4.1399329 11.860067,1 8,1 Z m 0,1 c 3.319627,0 6,2.6803725 6,6 0,3.319627 -2.680373,6 -6,6 C 4.6803725,14 2,11.319627 2,8 2,4.6803725 4.6803725,2 8,2 Z"
+     id="circle1" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M10 4.5V5.5L8.5 5.5V10.5H10V11.5L8.5 11.5H7.5L6 11.5V10.5H7.5V5.5L6 5.5V4.5H7.5H8.5H10Z"
+     fill="#5FB865"
+     id="path1" />
+</svg>
