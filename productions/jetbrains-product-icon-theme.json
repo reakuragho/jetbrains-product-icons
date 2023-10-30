@@ -67,6 +67,9 @@
         },
         "symbol-type-parameter": {
             "fontCharacter": "\\E90E"
+        },
+        "symbol-keyword": {
+            "fontCharacter": "  "
         }
     }
 }
