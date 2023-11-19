@@ -65,8 +65,15 @@
         "symbol-variable": {
             "fontCharacter": "\\E90D"
         },
+        // E90E unused
+        // "symbol-type-parameter": {
+        //     "fontCharacter": "\\E90E"
+        // },
+        "symbol-snippet": {
+            "fontCharacter": "\\E90F"
+        },
         "symbol-type-parameter": {
-            "fontCharacter": "\\E90E"
+            "fontCharacter": "\\E910"
         },
         "symbol-keyword": {
             "fontCharacter": "  "

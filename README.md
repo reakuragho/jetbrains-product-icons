@@ -15,10 +15,12 @@ vscode icon reference: https://code.visualstudio.com/api/references/icons-in-lab
 - 删掉"矩形"内的颜色填充: 删掉 rect 里的 fill 字段
 - 删掉"box"内的颜色填充: 删掉某个 path 标签
 - `type`: 删掉某个 path 标签
+- `typeVariable`: 删掉 path 里的 fill 字段
+- `template`: 无需处理
 
 Convert stroke to path(xml tag), "box 形"的不需要操作:
 
 - Inkscape: [inkscape command line, where is it on mac?](https://stackoverflow.com/questions/22085168/inkscape-command-line-where-is-it-on-mac)
-- 运行 `sh stroke2path.sh`
+- cd `productions/svg_unfilled`, 运行  `sh stroke2path.sh`
 
 上传到 IcoMoon / fontello, 并去掉颜色, 再生成 font.
