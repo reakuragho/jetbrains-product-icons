@@ -75,6 +75,9 @@
         "symbol-type-parameter": {
             "fontCharacter": "\\E910"
         },
+        "symbol-text": {
+            "fontCharacter": "\\E911"
+        },
         "symbol-keyword": {
             "fontCharacter": "  "
         }
