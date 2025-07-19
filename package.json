@@ -4,7 +4,11 @@
   "description": "",
   "publisher": "yatasun",
   "icon": "icon.png",
-  "version": "0.0.8",
+  "version": "0.0.9",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reakuragho/jetbrains-product-icons.git"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },

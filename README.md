@@ -1,26 +1,31 @@
-Jetbrains icons: https://jetbrains.design/intellij/resources/icons_list/
+![](./Mapping.png)
 
-vscode product icon theme document: https://code.visualstudio.com/api/extension-guides/product-icon-theme
+## How to add a new icon
+> NOTE: I have changed the wrapper shape of `property` and `field` SVGs from circle to diamond.
 
-vscode icon reference: https://code.visualstudio.com/api/references/icons-in-labels#icon-listing
+1. Original SVG files are stored in `productions/svg_raw`
 
-在线修改并查看 svg 效果: https://www.runoob.com/try/try.php?filename=trysvg_stroke0
+2. Edit each SVG file and save to `productions/svg_unfilled`. For each SVG file, removing all fill color:
+- For rectangle-shaped icons, remove color fill: delete the `fill` attribute in `rect` elements
+- For diamond-shaped icons, remove color fill: delete specific `path` elements
+- For `type` symbol: delete specific `path` elements
+- For `typeVariable` symbol: delete the `fill` attribute in `path` elements
+- For `template` symbol: no processing needed
 
----
-
-改变 `property` 和 `field` 这两个 svg 的包装形状, 圆形改为 box.
-
-删掉所有填充颜色:
-
-- 删掉"矩形"内的颜色填充: 删掉 rect 里的 fill 字段
-- 删掉"box"内的颜色填充: 删掉某个 path 标签
-- `type`: 删掉某个 path 标签
-- `typeVariable`: 删掉 path 里的 fill 字段
-- `template`: 无需处理
-
-Convert stroke to path(xml tag), "box 形"的不需要操作:
-
+3. Convert stroke to path (XML tag), diamond-shaped icons don't need this operation:
 - Inkscape: [inkscape command line, where is it on mac?](https://stackoverflow.com/questions/22085168/inkscape-command-line-where-is-it-on-mac)
-- cd `productions/svg_unfilled`, 运行  `sh stroke2path.sh`
+- cd `productions/svg_unfilled`, run `sh stroke2path.sh`
 
-上传到 IcoMoon / fontello, 并去掉颜色, 再生成 font.
+4. Upload all the SVG in `productions/svg_unfilled/out` to IcoMoon or Fontello, remove color,  and finally generate icon font(`xxx.woff`).
+
+
+## Resources
+[Official Jetbrains icons SVG](https://jetbrains.design/intellij/resources/icons_list/)
+
+[Vscode product icon theme extension guide](https://code.visualstudio.com/api/extension-guides/product-icon-theme)
+
+[Vscode icon reference](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing)
+
+[Edit and preview SVG online](https://www.runoob.com/try/try.php?filename=trysvg_stroke0)
+
+[iconfont-preview extension](https://marketplace.visualstudio.com/items?itemName=stxr.iconfont-preview)
